@@ -1,0 +1,50 @@
+h1 {
+    background-color: red;
+    color: white;
+}
+
+h3 {
+    color: rebeccapurple;
+}
+
+.major{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.Rules{
+    color: aqua;
+}
+
+.levels{
+    background-color: bisque;
+    color: aquamarine;
+}
+
+#info {
+    background-color: yellow;
+}
+
+.style {
+    color: blue;
+}
+
+a {
+    color: black;
+  }
+  
+  a:link {
+    color: red;
+  }
+  
+  a:visited {
+    color: green;
+  }
+  
+  a:active {
+    color:purple;
+  }
+  
+  a:hover {
+    color: yellow;
+  }        
