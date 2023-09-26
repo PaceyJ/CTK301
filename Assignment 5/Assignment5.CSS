@@ -1,0 +1,75 @@
+h1{
+    font: normal 35px Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    padding: 30px;
+    margin: 20px;
+    background-color: white;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 5px solid black;
+}
+
+body{
+    background-color: white;
+    background-image: url(a5bg.png);
+}
+
+main{
+    text-align: justify;
+    border: 1px solid white;
+    background-color: white;
+    padding: 0%;
+    margin: 20px;
+}
+
+main a{
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main a:hover{
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    color: white;
+    border: 5px solid white;
+    background-color: darkblue;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+nav li {
+   border: 1px solid darkblue;
+   width: 200px;
+   padding: 0px;
+   margin: 10px;
+   background-color: darkblue;
+   display: inline-block;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+nav li a:hover{
+    border: 1px blue;
+    background-color: blue;
+    text-decoration: none;
+}
