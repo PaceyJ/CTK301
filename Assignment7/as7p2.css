@@ -1,0 +1,117 @@
+main{
+    border: 5px solid darkblue;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+#wrapping{
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr, 1fr, 1fr;
+}
+
+/*Header Decorations*/
+#wrapping header{
+    grid-column: span 12;
+    border-bottom: 5px solid darkblue;
+    padding: 0%;
+    margin: 0%;
+}
+
+h1{
+    border-bottom: 5px solid darkblue;
+    background-image: linear-gradient(to bottom, darkblue, #042f7f, #06369c, #1543c0, darkblue);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    padding: 10px;
+    margin: 0px;
+}
+
+h1 a{
+    color: lightblue;
+}
+
+header a{
+    text-decoration: none;
+}
+
+/*Navigation decoraions*/
+nav li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+#wrapping nav li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: lightblue;
+    background-color: blue;
+    display: block;
+    width: 150px;
+    padding: 15px;
+    margin: 0px;
+    background-image: linear-gradient(to bottom, rgb(50, 50, 157), #042f7f, #06369c, #1543c0, #1335ae);
+}
+
+#wrapping nav li a:hover{
+    font-weight: bolder;
+    color: white;
+}
+
+/*Left side decorations*/
+#Leftside{
+    grid-column: span 9;
+}
+
+#Leftside h2{
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 4px solid darkblue;
+    font-weight: normal;
+    color: darkblue;
+    padding: 5px;
+    margin: 15px;
+}
+
+#Leftside img{
+    border: 4px solid darkblue;
+    float: right;
+    padding: 0%;
+    margin: 15px;
+}
+
+#Leftside p{
+    margin: 10px;
+}
+
+#Leftside a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+/*Right side decorations*/
+#Rightside{
+    grid-column: span 3;
+    background-color: aqua;
+}
+
+#Rightside p{
+    text-align: justify;
+    font-weight: bold;
+    padding: 5px;
+    margin: 15px;
+}
+
+/*Footer Decorations*/
+footer{
+    grid-column: span 12;
+    text-decoration: none;
+    border-top: 5px solid darkblue;
+    background-color: red;
+    padding: 20px;
+    margin: 0px;
+}
